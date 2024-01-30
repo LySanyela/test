@@ -55,7 +55,7 @@ Nodes:
       DisableLocalREALITYConfig: false  # disable local reality config
       EnableREALITY: true # Enable REALITY
       REALITYConfigs:
-        Show: true # Show REALITY debug
+        Show: false # Show REALITY debug
         Dest: www.smzdm.com:443 # Required, Same as fallback
         ProxyProtocolVer: 0 # Send PROXY protocol version, 0 for disable
         ServerNames: # Required, list of available serverNames for the client, * wildcard is not supported at the moment.
@@ -119,7 +119,7 @@ Nodes:
       DisableLocalREALITYConfig: false  # disable local reality config
       EnableREALITY: true # Enable REALITY
       REALITYConfigs:
-        Show: true # Show REALITY debug
+        Show: false # Show REALITY debug
         Dest: www.smzdm.com:443 # Required, Same as fallback
         ProxyProtocolVer: 0 # Send PROXY protocol version, 0 for disable
         ServerNames: # Required, list of available serverNames for the client, * wildcard is not supported at the moment.
